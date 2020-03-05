@@ -16,7 +16,7 @@ public class ClientUdpListener extends Thread{
 
     public void run() {
         while (!socket.isClosed()) {
-            byte[] receiveBuffer = new byte[1024];
+            byte[] receiveBuffer = new byte[3072];
             DatagramPacket receivePacket =
                     new DatagramPacket(receiveBuffer, receiveBuffer.length);
             try {

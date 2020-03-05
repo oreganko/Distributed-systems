@@ -18,7 +18,7 @@ public class UdpServerThread extends Thread {
         try {
             this.port = port;
             this.address = address;
-            receiveBuffer = new byte[1024];
+            receiveBuffer = new byte[3072];
             this.server = server;
         } catch (Exception e) {
             e.printStackTrace();

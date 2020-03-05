@@ -55,17 +55,12 @@ public class Client {
                             String art = "";
                             String tmpArt;
                             while ((tmpArt = br.readLine()) != null) {
-                                if (art.length() + tmpArt.length() + nick.length() + 1 < 1024) {
-                                    art = art.concat(tmpArt).concat("\n");
+                                if (art.length() + tmpArt.length() + nick.length() + 1 > 3072) {
+                                    System.out.println("You cannot send message bigger than 3 072 B.");
                                 }
-                                else {
-                                    sendWithUdp(nick + ":\n" + art);
-                                    art = tmpArt + "\n";
-                                }
+                                art = art.concat(tmpArt).concat("\n");
                             }
                             if(art.length() > 0) {
-                                while (nick.length() + ":\n".length() + art.length() < 1024)
-                                    art = art.concat(" ");
                                 sendWithUdp(nick + ":\n" + art);
                             }
                             continue;
@@ -77,17 +72,12 @@ public class Client {
                             String art = "";
                             String tmpArt;
                             while ((tmpArt = br.readLine()) != null) {
-                                if (art.length() + tmpArt.length() + nick.length() + 1 < 1024) {
-                                    art = art.concat(tmpArt).concat("\n");
+                                if (art.length() + tmpArt.length() + nick.length() + 1 > 3072) {
+                                    System.out.println("You cannot send message bigger than 3 072 B.");
                                 }
-                                else {
-                                    sendWithMulticastUdp(nick + ":\n" + art);
-                                    art = tmpArt + "\n";
-                                }
+                                art = art.concat(tmpArt).concat("\n");
                             }
                             if(art.length() > 0) {
-                                while (nick.length() + ":\n".length() + art.length() < 1024)
-                                    art = art.concat(" ");
                                 sendWithMulticastUdp(nick + ":\n" + art);
                             }
                             continue;

@@ -7,7 +7,7 @@ import java.net.MulticastSocket;
 
 public class ClientMultiUdpListener extends Thread {
     protected MulticastSocket socket = null;
-    protected byte[] buf = new byte[1024];
+    protected byte[] buf = new byte[3072];
 
     private InetAddress group;
 

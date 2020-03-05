@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f82c3c1e-86a8-4e39-b729-ee5315b4dbfb" name="Default Changelist" comment="" />
+    <list default="true" id="f82c3c1e-86a8-4e39-b729-ee5315b4dbfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ClientMultiUdpListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ClientMultiUdpListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ClientUdpListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ClientUdpListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/UdpServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/UdpServerThread.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,14 +25,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YRXiAWap6hd5heoE0mL4hhIibt" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tw/pk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,10 +114,22 @@
       <workItem from="1583154928205" duration="19754000" />
       <workItem from="1583324982585" duration="3261000" />
       <workItem from="1583347577098" duration="4175000" />
+      <workItem from="1583434273544" duration="761000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
